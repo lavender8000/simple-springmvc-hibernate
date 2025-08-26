@@ -2,13 +2,12 @@
 
 該實作應用中的 Database 配置
 
----
 
-## Oracle 版本
 
+**Oracle 版本**
 Oracle Database 10g Express Edition Release 10.2.0.1.0 - Production
 
----
+
 
 ## 1. 修改 SQL*Plus HTTP Port
 
@@ -22,7 +21,7 @@ sqlplus / as sysdba
 exec dbms_xdb.sethttpport(60001);
 ```
 
----
+
 
 ## 2. 修改 Oracle 安裝目錄下的捷徑（可選）
 
@@ -33,7 +32,7 @@ exec dbms_xdb.sethttpport(60001);
 | Database\_homepage | http://127.0.0.1:60001/apex |
 | Online\_help       | http://127.0.0.1:60001/apex/wwv\_flow\_help.show\_help?p\_flow\_id=4500\&p\_step\_id=1000 |
 
----
+
 
 ## 3. 建立使用者
 
@@ -47,7 +46,7 @@ CREATE USER DBO IDENTIFIED BY "123456";
 GRANT DBA TO DBO;
 ```
 
----
+
 
 ## 4. 資料庫初始化
 

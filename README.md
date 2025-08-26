@@ -2,8 +2,7 @@
 
 使用 Java Spring MVC + JSP，實作註冊、登入、個人資料編輯、搜尋、密碼重置（郵件）。
 
-### 檔案列表
-
+**檔案列表**
 - `javaweb`：該專案的 Java 目錄
 - `database`：該專案的 Oracle 相關配置目錄
 
